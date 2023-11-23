@@ -1,0 +1,33 @@
+html, body {    
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(40deg,yellow,Blue 10%,Blue 10%, transparent 10%),
+    linear-gradient(40deg,yellow 10%,Blue 20%,Blue 20%, transparent 20%),   
+    linear-gradient(40deg,yellow 20%,Blue 30%,Blue 30%, transparent 30%),
+    linear-gradient(40deg,yellow 30%,Blue 40%,Blue 40%, transparent 40%),
+    linear-gradient(40deg,yellow 40%,Blue 50%,Blue 50%, transparent 50%),
+    linear-gradient(40deg,yellow 50%,Blue 60%,Blue 60%, transparent 60%),
+    linear-gradient(40deg,yellow 60%,Blue 70%,Blue 70%, transparent 70%),
+    linear-gradient(40deg,yellow 70%,Blue 80%,Blue 80%, transparent 80%),
+    linear-gradient(40deg,yellow 80%,Blue 90%,Blue 90%, transparent 90%),
+    linear-gradient(40deg,yellow 90%,Blue 100%,Blue 1000%, transparent 100%); 
+      
+}
+
+main h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font: 80px Arial;
+    color: hsla(195, 100%, 50%, 0.966);
+}
